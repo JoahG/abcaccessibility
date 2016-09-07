@@ -84,7 +84,7 @@ li {
  * Headings
  */
 h1, h2, h3, h4, h5, h6 {
-    font-weight: 300;
+    font-weight: 700;
 }
 
 
@@ -93,12 +93,8 @@ h1, h2, h3, h4, h5, h6 {
  * Links
  */
 a {
-    color: $brand-color;
+    color: darkblue;
     text-decoration: none;
-
-    &:visited {
-        color: darken($brand-color, 15%);
-    }
 
     &:hover {
         color: $text-color;
@@ -202,7 +198,7 @@ pre {
         vertical-align: middle;
 
         path {
-            fill: $grey-color;
+            fill: currentColor;
         }
     }
 }
@@ -213,7 +209,16 @@ pre {
     border: 2px solid currentColor;
     border-radius: 1em;
     p {
-        padding: 1em 1em 0;
+        padding: 0 1em;
+    }
+    h1, h2 {
+        text-align: left;
+    }
+    h1 {
+        padding: 1em 2em 0;
+    }
+    h2 {
+        padding: 0 2em;
     }
 }
 
