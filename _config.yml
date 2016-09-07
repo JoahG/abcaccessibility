@@ -1,7 +1,7 @@
 # Site settings
 title: ABC accessibility
 email: gracenut96@gmail.com
-description: a cute alphabet of basic accessibility tips, as lived out by everyday objects
+description: a fun introductory alphabet of basic accessibility tips, as lived out by everyday objects
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://abc-accessibility.netlify.com" # the base hostname & protocol for your site
 twitter_username: gracenut96

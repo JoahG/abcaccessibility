@@ -27,7 +27,6 @@ body {
 }
 
 
-
 /**
  * Set `margin-bottom` to maintain vertical rhythm
  */
@@ -130,7 +129,7 @@ blockquote {
  * Code formatting
  */
 pre,
-code {
+code{
     font-size: 15px;
     border: 1px solid $grey-color-light;
     border-radius: 3px;
@@ -205,4 +204,12 @@ pre {
             fill: $grey-color;
         }
     }
+}
+
+.tip {
+    font-size: 1.2em;
+    text-align: center;
+    padding: 1em;
+    border: 2px solid currentColor;
+    border-radius: 1em;
 }

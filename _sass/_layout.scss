@@ -210,6 +210,13 @@
 
 .post-content {
     margin-bottom: $spacing-unit;
+    
+    p {
+        padding: 1.5em 1em;
+        width: 95%;
+        margin: 0 auto;
+        text-align: center;
+    }
 
     h2 {
         font-size: 32px;
