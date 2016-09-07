@@ -210,7 +210,18 @@ pre {
 .tip {
     font-size: 1.2em;
     text-align: center;
-    padding: 1em;
     border: 2px solid currentColor;
     border-radius: 1em;
+    p {
+        padding: 1em 1em 0;
+    }
+}
+
+.resources {
+    font-size: 0.7em;
+    text-align: left;
+    width: 70%;
+    margin: 0 auto;
+    padding-top: -1em;
+    padding-bottom: 2em;
 }
